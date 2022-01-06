@@ -12,12 +12,50 @@ body {
   justify-content: center;
 } */
 
+.center-div{
+  padding: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .container {
-  margin: 100px;
+  
   width: 500px;
   height: 500px;
   background-color: black;
+  position: relative;
 }
+
+.line {
+  background-color: rgba(243, 71, 71, 0.76);
+  font-weight: 900;
+  width: 0;
+  height: 5px;
+  border-radius: 90%;
+  position: absolute;
+  transition: width 1s ease-in-out;
+
+  /* transform: translate(0vw, 18vw) rotate(-45deg); */
+}
+
+.winner{
+  font-size: 30px;
+  font-weight: 500;
+  color: red;
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  background-color: wheat;
+  right: 0;
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 1s ease-in-out;
+}
+
 .boxes-container {
   width: 500px;
   height: 500px;
