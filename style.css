@@ -12,7 +12,7 @@ body {
   justify-content: center;
 } */
 
-.center-div{
+.center-div {
   padding: 100px;
   width: 100%;
   display: flex;
@@ -21,7 +21,6 @@ body {
 }
 
 .container {
-  
   width: 500px;
   height: 500px;
   background-color: black;
@@ -40,7 +39,7 @@ body {
   /* transform: translate(0vw, 18vw) rotate(-45deg); */
 }
 
-.winner{
+.winner {
   font-size: 30px;
   font-weight: 500;
   color: red;

@@ -60,9 +60,10 @@ function result() {
   // console.log(el);
   // console.log(order[0].innerText);
   wins.forEach((e) => {
+    // console.log(e[0], e[1], e[2]);
     if (
       order[e[0]].innerText === order[e[1]].innerText &&
-      order[e[2]].innerText === order[e[1]].innerText &&
+      order[e[1]].innerText === order[e[2]].innerText &&
       order[e[0]].innerText !== ""
     ) {
       // let res = order[e[0]].innerText;
@@ -76,6 +77,6 @@ function result() {
 
 /////////to refres///////
 
-head.addEventListener("dblclick", (refresh) => {
+head.addEventListener("dblclick", () => {
   window.location.reload("Refresh");
 });
